@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ListItem {
+class ListItem: Codable {
     
     var itemTitle : String = ""
     var itemCompleted : Bool = false
